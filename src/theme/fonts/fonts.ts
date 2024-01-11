@@ -6,6 +6,10 @@ const getFont = (value: number) => {
   return value / fontScale;
 };
 
+const getLineHeight = (baseLineHeight: number) => {
+  return baseLineHeight * fontScale;
+};
+
 export const fontSize = {
   f8: getFont(8),
   f10: getFont(10),
@@ -23,6 +27,11 @@ export const fontSize = {
   f34: getFont(34),
   f48: getFont(48),
   f60: getFont(60),
+};
+
+export const lineHeight = {
+  l8: getLineHeight(8),
+  l23: getLineHeight(23),
 };
 
 export const fontFamily = {

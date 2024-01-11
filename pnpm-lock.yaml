@@ -26,6 +26,9 @@ dependencies:
   react-native-asset:
     specifier: ^2.1.1
     version: 2.1.1(react-native@0.72.3)
+  react-native-fast-image:
+    specifier: ^8.6.3
+    version: 8.6.3(react-native@0.72.3)(react@18.2.0)
   react-native-gesture-handler:
     specifier: ^2.12.1
     version: 2.14.0(react-native@0.72.3)(react@18.2.0)
@@ -6431,6 +6434,16 @@ packages:
       react-native: 0.72.3(@babel/core@7.23.7)(@babel/preset-env@7.23.7)(react@18.2.0)
       sha1-file: 1.0.4
       xcode: 2.1.0
+    dev: false
+
+  /react-native-fast-image@8.6.3(react-native@0.72.3)(react@18.2.0):
+    resolution: {integrity: sha512-Sdw4ESidXCXOmQ9EcYguNY2swyoWmx53kym2zRsvi+VeFCHEdkO+WG1DK+6W81juot40bbfLNhkc63QnWtesNg==, tarball: https://registry.npmjs.org/react-native-fast-image/-/react-native-fast-image-8.6.3.tgz}
+    peerDependencies:
+      react: ^17 || ^18
+      react-native: '>=0.60.0'
+    dependencies:
+      react: 18.2.0
+      react-native: 0.72.3(@babel/core@7.23.7)(@babel/preset-env@7.23.7)(react@18.2.0)
     dev: false
 
   /react-native-gesture-handler@2.14.0(react-native@0.72.3)(react@18.2.0):
